@@ -1,0 +1,52 @@
+:root {
+    --menu-font: monospace;
+}
+
+a:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: var(--menu-font);
+    transition: background-color .25s;
+}
+a:visited {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: var(--menu-font);
+}
+a:hover {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: var(--menu-font);
+    transition: background-color .25s;
+}
+a:active {
+    background-color: lightgrey;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: var(--menu-font);
+}
+li {
+    float: left;
+}
+li a.menu {
+    display: block;
+    user-select: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
